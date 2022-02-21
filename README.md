@@ -12,6 +12,14 @@ This Task Involves setting up rails mailer to do the following:
 
 ## Screenshots
 
+### Sending a daily summary
+#### Daily Summary (HTML)
+![](https://raw.githubusercontent.com/cupOJ/Amazon-Clone/feature-background-jobs/screenshots/9.png)
+
+#### Daily Summary (Text)
+![](https://raw.githubusercontent.com/cupOJ/Amazon-Clone/feature-background-jobs/screenshots/10.png)
+
+
 ### Creating a new user
 #### UserMailer Preview (HTML)
 ![](https://raw.githubusercontent.com/cupOJ/Amazon-Clone/feature-configure-rails-mailer/screenshots/1.png)

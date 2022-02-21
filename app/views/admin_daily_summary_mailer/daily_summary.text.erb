@@ -1,0 +1,16 @@
+Here is your daily summary, <%= @admin.name %>
+====================================
+
+Users signed up today:
+<% @users.each do |user| %>
+Name: <%= user.name %>
+Email: <%= user.email %>
+
+<% end %>
+
+Items added today:
+<% @items.each do |item| %>
+Title: <%= item.title %>
+Price: <%= item.price %>
+
+<% end %>
