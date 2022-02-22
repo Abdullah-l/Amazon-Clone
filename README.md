@@ -1,24 +1,14 @@
-# README
+# Amazon-Clone
+## Tools & Versions
+- Rails 7.0.1
+- Ruby 3.1.0
+- SQLite 3.35.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Intro
 
-Things you may want to cover:
+This Task Involves using active storage to do the following:
+- Upload a cover photo
+- Upload multiple files
+- Delete button that deletes files
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Video

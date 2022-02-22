@@ -1,3 +1,3 @@
 class Item < ApplicationRecord
-    has_multiple_attached :uploads
+    has_many_attached :uploads
 end

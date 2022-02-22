@@ -57,6 +57,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def delete_image
+    @upload = ActiveStorage::Blob.find_signed(params[:id])
+    @upload.attachments.first.purge
+    redirect_back(fallback_location: items_path)
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
