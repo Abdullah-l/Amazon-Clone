@@ -1,5 +1,10 @@
 <p style="color: green"><%= notice %></p>
 
+  <div>
+    <strong>Cover:</strong>
+    <%= image_tag(@user.cover, size: "200x200") %>
+  </div>
+  
 <%= render @user %>
 
 <div>
