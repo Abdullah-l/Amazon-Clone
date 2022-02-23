@@ -9,3 +9,5 @@
 This Task Involves using rails devise to do the following:
 - Users can sign-up and sign-in
 - Users can logout
+
+## Video
