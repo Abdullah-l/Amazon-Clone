@@ -11,3 +11,5 @@ This Task Involves using rails devise to do the following:
 - Users can logout
 
 ## Video
+
+https://user-images.githubusercontent.com/35638595/156721718-a116a31f-4e02-434b-a014-6cfcc4eadb7e.mov
