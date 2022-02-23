@@ -1,5 +1,21 @@
 <p style="color: green"><%= notice %></p>
 
+  <% @item.uploads.each do |upload| %>
+  <p>
+    <% if upload.representable? %>
+    <%= image_tag upload.representation(resize_to_limit: [200,200]) %>
+
+    <% else %>
+    <%= image_tag(upload, size: "200x200") %>
+    
+    <% end %>
+    
+  </p>
+ <%= button_to 'Remove', delete_image_item_url(upload.signed_id),
+                :method => :delete,
+                data: { confirm: 'Are you sure?' } %>
+  <% end %>
+
 <%= render @item %>
 
 <div>

@@ -1,5 +1,14 @@
 <p style="color: green"><%= notice %></p>
 
+  <div>
+    <% if @user.cover.representable? %>
+    <%= image_tag(@user.cover, size: "200x200") %>
+     <%= button_to 'Remove', delete_image_user_url(@user.cover.signed_id),
+                :method => :delete,
+                data: { confirm: 'Are you sure?' } %>
+    <% end %>
+  </div>
+  
 <%= render @user %>
 
 <div>
