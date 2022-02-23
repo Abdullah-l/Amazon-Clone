@@ -6,13 +6,6 @@
 
 ## Intro
 
-This Task Involves using active storage to do the following:
-- Upload a cover photo
-- Upload multiple files
-- Delete button that deletes files
-
-## Video
-
-
-https://user-images.githubusercontent.com/35638595/155177866-beca0bda-df63-4f26-a637-b1a1963efa55.mp4
-
+This Task Involves using rails devise to do the following:
+- Users can sign-up and sign-in
+- Users can logout
